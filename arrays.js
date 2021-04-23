@@ -21,10 +21,15 @@ function everyOtherItem(items) {
   }
 }
 
-everyOtherItem(['apple','berry','cherry', 'durian'])
+//everyOtherItem(['apple','berry','cherry', 'durian'])
 
 
 // 3. smallestNItems
 function smallestNItems(items, n) {
-  // Replace this with your code
+  items.sort((a,b) => a-b); //save this
+  console.log(items.slice(0,n))
+  
 }
+
+smallestNItems([1, 30, 4, 21, 100000],2) //make sure to check the
+//num of arguement passing through function
