@@ -3,7 +3,20 @@
 
 // 1. isHometown
 
-// Define your function here
+function is_hometown(town) {
+
+    if (town === 'San Francisco') {
+        return True;
+    }
+    else {
+        return False;
+    }
+
+}
+
+is_hometown['Boston']
+is_hometown['San Francisco']
+
 
 
 // 2. getFullName
